@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+   <test name="parameterstest2">
+       <parameter name="browser" value="firefox"/>
+       <parameter name="url" value="forefox_URL"/>
+       <classes>
+            <class name="ParametersExample"/>
+        </classes>
+    </test>
+
+    <test name="parameterstest1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="chrome_URL"/>
+        <classes>
+            <class name="ParametersExample"/>
+        </classes>
+    </test>
+
+
+
+</suite>
